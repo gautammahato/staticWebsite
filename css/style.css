@@ -4,10 +4,12 @@
     background-color: aqua;
     color: darkgoldenrod;
 }
+
 *{
     padding: 0px;
     margin: 0px;
 }
+
 .header h1{
     text-align: center;
     font-size: 50px;
@@ -67,6 +69,16 @@ mark {
 }
 .nav h1 figure img{
     image-rendering: crisp-edges;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: darkslategrey;
+    color: white;
+}
+.footer{
+    text-align: center;
+    font-size: 20px;
 }
 
 
