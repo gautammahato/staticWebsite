@@ -114,3 +114,13 @@ section .btntwo{
     80%{content: "Banglore";}
     100%{content: "Mumbai";}
 }
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: darkslategray;
+    text-align: center;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+}
