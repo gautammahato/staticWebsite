@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: aliceblue;
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.navbar-list {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar-list li {
+    list-style: none;
+
+}
+.navbar-list li a {
+
+    text-decoration: none;
+    padding: 25px;
+    color: white;
+    text-transform: uppercase;
+    
+    
+}
+
+.navbar-list li a:hover{
+    color:blue;
+       
+
+}
+.logo img{
+    width: 80%;
+    
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    margin: 1rem 1rem;
+    color: grey;
+    
+    
+}
+#search{
+    padding: 5px;
+    font-size: 17px;border: 2px solid gray;
+    border-radius: 9px;
+    color: grey;
+}
+.rightNav button:hover{
+    color: gold;
+    transition: all 0.3s;
+    transform: scale(0.9);
+
+}
+.background{
+    background: rgba(0,0,0,0.7) url(../images/city.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.background1{
+    background: rgba(0,0,0,0.9);
+    
+    opacity: 0.8;
+}
+.firstSection{
+    height: 100vh;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    max-width: 50%;
+    height: 70%;
+}
+.secondHalf img {
+    width: 100%;
+    height: 50%;
+    border: 4px solid;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 30px;
+
+}
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    color: aliceblue;
+    border-radius: 8px;
+    background: none;
+    font-size: 15px;
+    cursor: pointer;
+ 
+}
+.sectionTag{
+    font-size: 1.5rem;
+}
+.thubmnail img {
+    width: 100%;
+    height: 120%;
+    
+}
+.secRight{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem; 
+    
+    
+
+}
+.paras{
+    margin:0 2rem;
+}
+.button .btn:hover{
+    
+    color: yellowgreen;
+}
