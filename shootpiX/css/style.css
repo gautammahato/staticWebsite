@@ -7,7 +7,7 @@ body{
 header{
 	width: 100vw;
 	height:90vh;
-	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../images/photopix/240580239_148283237453849_6841328945067744652_n\(1\).jpg');
+	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../images/shootpix/240580239_148283237453849_6841328945067744652_n\(1\).jpg');
 	background-size: cover;
 	background-position:0;
 	position: relative;
@@ -145,15 +145,148 @@ nav{
     }
 
 
+/* >>>>>>>>>>>>>>>>>>portfolio start<<<<<<<<<<<<<<<<<< */
 
+.portfolio-item{
+	width: 100%;
 
+}
+.portfolio-item .item{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 30px;
 
+}
+.portfolio-item .item img{
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
+.member{
+	width: 100%;
+	padding: 20px 100px;
+	font-family: sans-serif;
+}
+.member-info{
+	text-align: center;
+}
+.member-info h1{
+	font-size: 2.5rem;
+}
+.member-info h1 span{
+	color: #e74c3c;
+}
+.member-card img{
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.member-card img{
+	width: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.member-card{
+	text-align: center;
+	padding-top: 50px;
+	width: 50%;
+	margin:auto;
+	}
 
+.member-card p{
+	margin:20px 0px;
+	line-height: 2em;
+}
+.member-card h2{
+	margin:20px 0px;
+}
+.member-card h2 span{
+	color: #e74c3c;
+}
+.member-card .tag span{
+	color: #e74c3c;
+	font-weight: bold;
+}
+.h-gallery{
+	width: 110%;
+	display: flex;
+	overflow: hidden;
+	
+}
+.h-gallery img{
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	
+	transition: 0.4s ease-in-out;
+}
+.h-gallery img:hover{
 
+	transform: scale(1.5);
+}
+footer{
+	width: 100%;
+	height: 100vh;
+	background: #2e2d2d;
+	padding: 50px 100px;
+}
+.shootpix{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	border: 1px solid rgba(255,255,255,0.2);
+	color: white;
+}
+.shootpix h2{
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+.shootpix p{
+	font-size: 20px;
+	margin: 10px;
+}
+.text h2 span{
+	color: #e74c3c;
 
-
-
-
+}
+.shootpix >div{
+	flex-basis: 50%;
+}
+.text1{
+	text-align: right;
+}
+.shootpix label{
+	position: relative;
+}
+.shootpix input{
+	padding: 20px;
+	width: 70%;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+.shootpix button{
+	position: absolute;
+	right: 0;
+	padding: 20px;
+	width: 30%;
+	background: #e74c3c;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 0 9px 9px 0;
+}
 
 
 

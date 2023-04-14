@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RishigyanuWebsite</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
@@ -31,7 +32,7 @@
     
         <section class="h-text">
             <i class="fa fa-camera" id="camera"></i>
-            <h1>The eye should learn to listen before it looks.</h1>
+            <h1 class="animate infinte heartBeat">The eye should learn to listen before it looks.</h1>
             <input type="text" name="" placeholder="Search here...">
             <button><i class="fa fa-search"></i></button>
     
@@ -42,12 +43,106 @@
         <div class="portfolio-menu">
                 <ul>
                     <li class="active" data-filter="*"> All</li>
-                    <li data-filter=".web"> Nature</li>
-                    <li data-filter=".seo">Fashion</li>
-                    <li data-filter=".graphics">Wedding</li>
+                    <li data-filter=".nature">Nature</li>
+                    <li data-filter=".fashion">Fashion</li>
+                    <li data-filter=".wedding">Wedding</li>
                 </ul>
         </div>
+        <div class="portfolio-item">
+            <div class="item nature">
+                <img src="images/shootpix/p1.jpg" width="100" height="100">
+            </div>
+            <div class="item fashion">
+                <img src="images/shootpix/p2.jpg" width="100" height="100">
+            </div>
+            <div class="item wedding">
+                <img src="images/shootpix/p3.jpg" width="100" height="100">
+            </div>
+            <div class="item nature">
+                <img src="images/shootpix/p4.jpg" width="100" height="100">
+            </div>
+            <div class="item fashion">
+                <img src="images/shootpix/p5.jpg" width="100" height="100">
+            </div>
+            <div class="item wedding">
+                <img src="images/shootpix/p6.jpg" width="100" height="100">
+            </div>
+            <div class="item nature">
+                <img src="images/shootpix/p7.jpg" width="100" height="100">
+            </div>
+            <div class="item fashion">
+                <img src="images/shootpix/p8.jpg" width="100" height="100">
+            </div>
+            <div class="item wedding">
+                <img src="images/shootpix/p9.jpg" width="100" height="100">
+            </div>
+        </div>
+
     </section>
+    <section class="member">
+        <div class="member-info">
+            <h1>0ur <span>informations</span></h1>
+            <p>What 0ur Team says</p>
+
+        </div>
+        <div class="member-card"  data-aos="zoom-in-down" data-aos-offset="100" data-aos-delay="300">
+            <p class="tag">Eduardo <span>Rabossi</span></p>
+            <p>
+                When we tell our own story, we teach the values that our choices reveal, 
+                not as abstract principles, but as our lived experience. We reveal the kind of 
+                person we are to the extent that we let others identify with us.
+            </p>
+            <h2>Integrated<span>-0rganization</span></h2>
+            
+        </div>
+       
+        <div class="h-gallery"  data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
+            <img src="images/shootpix/s1.jpg">
+            <img src="images/shootpix/s2.jpg">
+            <img src="images/shootpix/s3.jpg">
+            <img src="images/shootpix/s4.jpg">
+            <img src="images/shootpix/s5.jpg">
+            <img src="images/shootpix/s6.jpg">
+            
+        
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script>
+        $('.portfolio-item').isotope({
+      // options
+      itemSelector: '.item',
+      layoutMode: 'fitRows'
+    });
+            $('.portfolio-menu ul li').click(function(){
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
+    
+                var selector = $(this).attr('data-filter');
+            $('.portfolio-item').isotope({
+                filter:selector
+            });
+            return false;
+        });
+    </script>
+    <footer>
+        <div class="shootpix">
+            <div class="text">
+                <h2>Subscribe our shoot<span>pi</span>X</h2>
+                <p>we are a team of non-cynic who truly care our work</p>
+            </div>
+            <div class="text1">
+                <label>
+                    <input type="text" name="text" placeholder="Enter Your email"></input>
+                    <button>Subscribe</button>
+                </label>
+            </div>
+
+        </div>
+    </footer>
  
     
 </body>
