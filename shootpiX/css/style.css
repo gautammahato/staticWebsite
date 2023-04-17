@@ -4,8 +4,8 @@ body{
 	scroll-behavior: smooth;
 		overflow-x: hidden;
 }
-header{
-	width: 100vw;
+.header{
+	width: 100%;
 	height:90vh;
 	background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../images/shootpix/240580239_148283237453849_6841328945067744652_n\(1\).jpg');
 	background-size: cover;
@@ -155,9 +155,9 @@ nav{
 	width: 300px;
 	height: 300px;
 	float: left;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	margin-right: 20px;
-	margin-left: 30px;
+	margin-left: 35px;
 
 }
 .portfolio-item .item img{
@@ -215,9 +215,13 @@ nav{
 	font-weight: bold;
 }
 .h-gallery{
-	width: 110%;
+	width: 100%;
 	display: flex;
 	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	
+
 	
 }
 .h-gallery img{
@@ -231,9 +235,11 @@ nav{
 
 	transform: scale(1.5);
 }
+
+/* footer started form here */
 footer{
 	width: 100%;
-	height: 100vh;
+	height: 80vh;
 	background: #2e2d2d;
 	padding: 50px 100px;
 }
@@ -279,16 +285,65 @@ footer{
 .shootpix button{
 	position: absolute;
 	right: 0;
-	padding: 20px;
+	padding: 21.2px;
 	width: 30%;
 	background: #e74c3c;
 	color: white;
 	border: none;
 	outline: none;
-	border-radius: 0 9px 9px 0;
+	border-radius: 0 8px 8px 0;
 }
 
 
+.f-contact{
+	color: white;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.design-1 h1 span{
+	color: #e74c3c;
+}
+.design-2 h1 span{
+	color: #e74c3c;
+}
+.f-contact>div{
+	flex-basis: 20%;
+}
+.f-contact p{
+	color: gray;
+	line-height: 2em;
+	font-size: 20px;
+	cursor: pointer;
+}
+.design-1 a i{
+	font-size: 16px;
+	padding: 5px;
+	background: white;	
+	margin: 5px 5px;
+	color: black;
+	transition: all 0.3s ease-in-out;
+	border-radius: 50%;
+
+}
+.design-1 a i:hover{
+	transform: scaleX(1.4);
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+}
+.f-contact p:hover{
+	color: white;
+	
+}
+.f-rishigyanu{
+	color: white;
+	margin: 5px 0;
+	text-align: center;
+}
 
 
 
