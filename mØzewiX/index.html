@@ -16,7 +16,7 @@
          <div class="container">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"> <b>mØze<span>wiX</span></b></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -25,13 +25,13 @@
                     <a class="nav-link active" style="color: rgb(206, 68, 68);" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#Servicediv">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#footerdiv">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contactid">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -189,7 +189,7 @@
 
 <!-- ************* pricing section start ***************-->
 <section class="pricing" id="pricingdiv">
-  <div class="container headings text-center p-color">
+  <div class="container headings text-center">
     <h1 class="text-center font-weight-bold ">0ur best pricing</h1>
   </div>
   <div class="container">
@@ -256,7 +256,7 @@
 <!-- ************* 0ur Customer feedback start ***************-->
 <section class="happyclient">
   <div class="container headings text-center">
-    <h1 class="text-center font-weight-bold ">Our Happy Clients</h1>
+    <h1 class="text-center font-weight-bold mt-5">Our Happy Clients</h1>
     <p class="text-capitalize pt-1">0ur Satisfied customers Says</p>
   </div>
   <!-- Carousel -->
@@ -264,7 +264,7 @@
 
   <!-- Indicators/dots -->
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0"  class="active" ></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
   </div>
@@ -386,10 +386,121 @@
 <!-- ************* contact Us start ***************-->
 <section class="contactus" id="contactid">
   <div class="container headings text-center">
-    <h1 class="text-center font-weight-bold ">CONTACT US</h1>
+    <h1 class="text-center font-weight-bold mt-5">CONTACT US</h1>
     <p class="text-capitalize pt-1">We're here to help and answer any question you might have. We look forward to hearing from you 😊. </p>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 col-1">
+        <form action="/action_page.php">
+
+          <div class=" form-group mb-3 mt-3">
+            <input type="text" class=" form-control form-control" id="username" placeholder="Enter your Username"required autocomplete="off">
+          </div>
+
+          <div class=" form-group mb-3 mt-3">
+            <input type="email" class=" form-control form-control" id="email" placeholder="Enter your email"required autocomplete="off">
+          </div>
+
+          <div class=" form-group mb-3 mt-3">
+            <input type="number" class=" form-control form-control" id="Mobile" placeholder="Enter your Mobile number"required autocomplete="off">
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control " rows="4" id="comment"placeholder="Enter your message"required autocomplete="off"></textarea>
+          </div>
+          <div class="d-flex justify-content-center mt-2 form-btn">
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- ************* contact Us end ***************-->
+
+
+
+<!-- ************* newsLetter start start ***************-->
+<section class="newsletter" id="newsletterid">
+  <div class="container headings text-center">
+    <h1 class="text-center font-weight-bold mt-5">subscribe 0ur newsletter</h1>
+    <p class="text-capitalize pt-1">We're here to help and answer any question you might have. We look forward to hearing from you. </p>
+  </div>
+  <div class="container">
+    <dov class="row">
+      <div class="col-lg-8 offset-lg-2 col-12">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control news-input" placeholder="Newsletter">
+          <div class="input-group-append">
+            <span class="input-group-text">Subscribe</span>
+          </div>
+        </div>
+      </div>
+    </dov>
+  </div>
+  
+</section>
+
+<!-- ************* newsLetter start end ***************-->
+
+
+
+<!-- ************* footer section start ***************-->
+<footer class="footersection" id="footerdiv">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 footer-div">
+        <div>
+          <h3>ABOUT RISHIGYANU</h3>
+          <P>The world has become so fast that people don't want to stand by reading a page of the imformation to 
+            be they would much rather look at a presentation and understand the message. </P>
+
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa-3x fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa-3x fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa-3x fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa-3x fa fa-telegram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 footer-div footer-divli text-center">
+        <div>
+          <h3>NAVIGATION LINKS</h3>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#pricingdiv">Price</a></li>
+          <li><a href="#">About</a></li>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-12 footer-div">
+        <div>
+          <h3>NEWSLETTER</h3>
+          <P>For bussiness proffessional caught between high OEM price and mediocre print output. </P>
+          <div class="container newsletter-main">
+            <dov class="row">
+              <div class="col-lg-12  col-12">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control news-input" placeholder="Newsletter">
+                  <div class="input-group-append">
+                    <span class="input-group-text">Subscribe</span>
+                  </div>
+                </div>
+              </div>
+            </dov>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 text-center">
+      <p>Copyright &copy;2023 All right s reserved | this template made with practice by Rishigyanu😊</p>
+    </div>
+  </div>
+</footer>
+<!-- ************* footer section  end***************-->
 
 
 
