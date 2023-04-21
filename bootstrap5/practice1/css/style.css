@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* *************** navbar css start ************/
+.tag{
+    font-size: 30px;
+    color: crimson;
+}
+.logo{
+    color:rgb(73, 4, 4);
+    margin-left: 20px;
+}
+.navbar-nav a:hover{
+    color: rgb(95, 5, 23);
+}
+/* *************** navbar css end   ************/
+
+/* ****************header css start************* */
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+.carousel-caption p{
+    bottom: 0.25rem;
+    color:black;
+}
+.carousel-caption h5{
+    
+    color:rgb(19, 10, 10);
+}
+.ci-1 p{
+    bottom: 0.25rem;
+    color:#fff;
+}
+.ci-2 p{
+    bottom: 0.25rem;
+    color:#fff;
+}
+.ci-1 h5{
+    
+    color: #fff;;
+}
+.ci-2 h5{
+    
+    color:#fff;
+}
+
+/* *******************header css end*************** */
+
+/* <!-- ***************** main-heading css start ************* --> */
+.main-heading{
+    width: 100%;
+    height: 25vh;
+    padding: 55px;
+   
+}
+.query h5{
+    height: 10vh;
+    font-size: 15px;
+    background-color: rgb(89, 89, 233);
+    padding-left: 35px;
+    color: #fff;
+    padding-top: 15px;
+}
+.query a h5 span i{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 5px;
+   
+}
+
+
+
+
+
+/* <!-- ***************** main-heading css end************* --> */
+/* media query start */
