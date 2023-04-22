@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
 }
 /* *************** navbar css start ************/
 .tag{
@@ -36,7 +38,7 @@
 }
 .ci-2 p{
     bottom: 0.25rem;
-    color:#fff;
+    color:#161515;
 }
 .ci-1 h5{
     
@@ -44,7 +46,7 @@
 }
 .ci-2 h5{
     
-    color:#fff;
+    color:#1a1818;
 }
 
 /* *******************header css end*************** */
@@ -64,16 +66,98 @@
     color: #fff;
     padding-top: 15px;
 }
-.query a h5 span i{
-    font-size: 25px;
-    padding-left: 15px;
-    padding-top: 5px;
+.query a h5  i{
+    font-size: 30px;
+    padding-left: 35px;
+    padding-top: 1px;
+    padding-bottom: 5px;
    
+}
+.query a h5  i:hover{
+    color: maroon;
+}
+.text-center h1{
+    color:rgb(73, 4, 4);
+}
+.about-img{
+    min-width: 100%;
+    max-height: 280;
+    
+}
+
+/* <!-- ***************** main-heading css end************* --> */
+
+
+/* <!-- ***************** our services  css start ************* --> */
+.cervices .row>*{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title span{
+    color: crimson;
+}
+
+.our-services{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.our-services:before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+
+.useit img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.course a{
+    text-decoration: none;
+    color: #1a1818;
+}
+.html-color i{
+    color: rgb(173, 51, 51);
+}
+.css-color i{
+    color: #264de4;
+}
+
+.bootstrap-color i{
+    color:darkviolet;
 }
 
 
+/* <!-- ***************** our services  css end************* --> */
 
+/* ******************** media query start *************** */
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
 
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
 
-/* <!-- ***************** main-heading css end************* --> */
-/* media query start */
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
+
