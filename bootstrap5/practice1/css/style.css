@@ -84,6 +84,10 @@
     max-height: 280;
     
 }
+.aboutus-heading h1::after{
+    color: #161515;
+
+}
 
 /* <!-- ***************** main-heading css end************* --> */
 
@@ -138,9 +142,56 @@
 .bootstrap-color i{
     color:darkviolet;
 }
+.course{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
 
 
 /* <!-- ***************** our services  css end************* --> */
+
+
+
+
+
+
+
+
+
+/* <!-- ***************** Gallery html/bootstrap start ************* --> */
+.gallery-div h1{
+    color: #161515;
+}
+.gallery-div{
+    width: 100%;
+    height: auto;
+}
+.img-2 img{
+    height: 35vh;
+}
+.img-3 img{
+    height: 35vh;
+}
+.img-5 img{
+    height: 42vh;
+}
+.img-6 img{
+    height: 42vh;
+}
+.check{
+    width: 100%;
+    height: 100%;
+    background: #a6dcef;
+}
+
+/* ***************** Gallery html/bootstrap end ************* */
+
+
+
+
+
 
 /* ******************** media query start *************** */
 /* // X-Small devices (portrait phones, less than 576px) */
@@ -160,4 +211,12 @@
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { }
+
+@media (max-width:500px) {
+    .aboutus-heading h1{
+        padding-top: 40px;
+        margin-bottom: -20px;
+    }
+   
+}
 
