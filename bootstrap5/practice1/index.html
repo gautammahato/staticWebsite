@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Josefin+Sans:wght@100&family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
 
     <link rel="stylesheet" href="../practice1/css/style.css">
@@ -118,9 +119,9 @@
       </section>
   
       <section class="aboutus-heading my-5">
-        <div class="text-center">
+        <div class="responsive text-center mx-5 my-5">
           <h1 class="display-6">About Us</h1>
-          <hr class="w-25 m-auto">
+          
         </div>
         <div class="container">
           <div class="row my-5">
@@ -130,7 +131,7 @@
               </figure>
             </div>
             <div class="col-lg-6 col-md-6 col-12 col-xxl-6 my-5 p-3 d-flex justify-content-center align-items-start flex-column ">
-              <h1>My Journey</h1>
+              <h1 class="my-journey">My Journey</h1>
               <p>Whether we’re fighting climate change or going to space, everything is moved forward by computers, 
                 and we don’t have enough people who can code. Teaching young people to code early on can help build 
                 skills and confidence and energize the classroom with learning-by-doing opportunities.
@@ -324,17 +325,162 @@
             <div class="text-center py-3">
                 <h1 class="display-6">Check out Related Video</h1>
                 <p>Clean code always looks like it was written by someone who cares.</p>
-                <a href="#"><button type="button" class="btn btn-outline-secondary"
-                  data-bs-toggle="tooltip" data-bs-placement="right" title="Get It">Check More</button></a>
+                <button type="button" class="btn btn-outline-secondary"
+                  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                </svg> Check More</button>
             </div>
         </div>
     </div>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get Touch</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h1> this is my fb page</h1>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="https://www.facebook.com/itz.gautam.52?mibextid=ZbWKwL" target="_blank">
+             <button type="button" class="btn btn-primary">Check Now</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 
 <!-- ***************** check rel tutorials html/bootstrap end ************* -->
 
 
-    
+
+<!-- ***************** Contact us html/bootstrap start ************* -->
+<section class="contactus-heading my-5 bg-light">
+  <div class="text-center">
+    <h1 class="display-6">Contact Us</h1>
+    <hr class="w-25 m-auto">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xxl-8 col-10 col-md-8 mx-auto"> 
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your credential with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Email address</label>
+            <input type="text" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label class="pe-4">Gender</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">Male</label>
+            </div>
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleDataList" class="form-label">Select Your City</label>
+               <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+               <datalist id="datalistOptions">
+                 <option value="San Francisco"></option>
+                 <option value="New York"></option>
+                 <option value="Seattle"></option>
+                 <option value="Los Angeles"></option>
+                 <option value="Chicago"></option>
+               </datalist>
+          </div>
+          <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- ***************** Contact us html/bootstrap end ************* -->
+
+
+    <!-- ***************** Footer html/bootstrap strat ************* -->
+   
+     <footer class="footer">
+      <div class="container footer-container">
+        <div class="row footer-row">
+          <div class="footer-col col-lg-3 col-md-3 col-12 col-sm-12 mx-auto">
+            <h4>0rganization</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">0ur Services</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col col-lg-3 col-md-3 col-12 col-sm-12 mx-auto">
+            <h4>Get Help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">0rder Status</a></li>
+              <li><a href="#">Payment 0ption</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col col-lg-3 col-md-3 col-12 col-sm-12 mx-auto">
+            <h4>0nline Learning</h4>
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">BOOTSTRAP</a></li>
+              <li><a href="#">JAVA SCRIPT</a></li>
+              <li><a href="#">NODE JS RAECT</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col col-lg-3 col-md-3 col-12 col-sm-12 mx-auto">
+            <h4>Follow Us</h4>
+            <div class="social-link">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>  
+              <p>" Hope you like to follow our official pages and get leran programming langauge to build your Dream success with us. "</p>            
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class=" copy-write text-center bg-secondary">
+        <p>&copy2023 All rights reserved   &copyRishigyanu practice html/css/bootstrap </p>
+      </div>
+     </footer>
+  
+    <!-- ***************** Footer html/bootstrap end ************* -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
